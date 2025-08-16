@@ -10,7 +10,7 @@
 
 ## 🌐 Live Demo
 
-You can check out this web application by following this <a href="https://tire-season-advisor.netlify.app/" title="Tire Season Advisor">link</a>.
+You can check out this web application by following this <a href="https://tire-season-advisor.netlify.app/" target="_blank" title="Tire Season Advisor">link</a>.
 
 > [!CAUTION]
 > **The application must be given permission to determine geolocation**
