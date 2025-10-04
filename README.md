@@ -1,5 +1,7 @@
 # Tire Season Adviser
-**Tire Season Advisor** is a lightweight, responsive web application that provides real-time tire recommendations based on current weather conditions and geolocation. It helps users decide between summer and winter tires by analyzing temperature thresholds and delivering clear, actionable guidance. Powered by React with Tailwind and AccuWeather & Open Meteo APIs.
+**Tire Season Advisor** is a lightweight, responsive web application that provides real-time tire recommendations based on current weather conditions and geolocation. It helps users decide between summer and winter tires by analyzing temperature thresholds and delivering clear, actionable guidance. Powered by React with Tailwind and AccuWeather & Open-Meteo and OpenWeather APIs. In case AccuWeather API fails (or all free plan requests are exhausted), one of the rest working weather APIs will fall back on it until the user sees the message "Failed to fetch weather data from all available sources."
+AccuWeather API is prioritized because of its high speed. But its recently known disadvantage is the limited number of key requests.
+A bunch of Open-Meteo + OpenWeather APIs is designed to show the correct names of the user's location according to the scheme: Open-Meteo API --> Determines the browser's geographical coordinates in Latitude and Longitude parameters. 2. OpenWeather API --> Decodes the coordinates into the name of the settlement (latitude/longitude lookup).
 
 <div>
   <img src="assets/Light-Mode.png" alt="Screenshot of a Tire Season Advisor app page, colored in stock Light Mode palette." width = "500">   
@@ -28,7 +30,7 @@ You can check out this web application by following this <a href="https://tire-s
 | **Styling**         | Tailwind CSS (via CDN)              | Utility-first styling with responsive design and dark mode support      |
 | **Icons**           | Lucide React                        | Clean, scalable SVG icons for weather, location, and contact visuals    |
 | **Geolocation**     | HTML5 Geolocation API               | Detects user location for weather lookup                                |
-| **Weather API**     | AccuWeather & Open Meteo API                     | Fetches live weather data and temperature for tire logic                |
+| **Weather API**     | AccuWeather & Open-Meteo and OpenWeather APIs                     | Fetches live weather data and temperature for tire logic                |
 
 ---
 
