@@ -1,5 +1,5 @@
 # Tire Season Adviser
-**Tire Season Advisor** is a lightweight, responsive web application that provides real-time tire recommendations based on current weather conditions and geolocation. It helps users decide between summer and winter tires by analyzing temperature thresholds and delivering clear, actionable guidance. Powered by React with Tailwind and AccuWeather API.
+**Tire Season Advisor** is a lightweight, responsive web application that provides real-time tire recommendations based on current weather conditions and geolocation. It helps users decide between summer and winter tires by analyzing temperature thresholds and delivering clear, actionable guidance. Powered by React with Tailwind and AccuWeather & Open Meteo APIs.
 
 <div>
   <img src="assets/Light-Mode.png" alt="Screenshot of a Tire Season Advisor app page, colored in stock Light Mode palette." width = "500">   
@@ -28,7 +28,7 @@ You can check out this web application by following this <a href="https://tire-s
 | **Styling**         | Tailwind CSS (via CDN)              | Utility-first styling with responsive design and dark mode support      |
 | **Icons**           | Lucide React                        | Clean, scalable SVG icons for weather, location, and contact visuals    |
 | **Geolocation**     | HTML5 Geolocation API               | Detects user location for weather lookup                                |
-| **Weather API**     | AccuWeather API                     | Fetches live weather data and temperature for tire logic                |
+| **Weather API**     | AccuWeather & Open Meteo API                     | Fetches live weather data and temperature for tire logic                |
 
 ---
 
