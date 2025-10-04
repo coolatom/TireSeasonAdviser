@@ -49,6 +49,7 @@ Tailwind CSS is integrated via CDN for rapid prototyping and minimal setup. This
 
 - Responsive layouts (`flex`, `grid`, `gap`, `space-x`);
 - Theming via `dark:` options to render light or dark mode;
+- Dual-Translation via `react-i18next` allows to present UI in Ukrainian and English lang;
 - Utility classes for spacing, typography, borders, and gradients;
 - Shadow settings, loading animation and icons.
 
@@ -64,6 +65,7 @@ Tailwind CSS is integrated via CDN for rapid prototyping and minimal setup. This
     "@testing-library/user-event": "^13.5.0",
     "lucide-react": "^0.539.0",
     "react": "^19.1.1",
+    "i18next": "^25.5.3",
     "react-dom": "^19.1.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
